@@ -46,10 +46,10 @@
             <nav class="navbar-color">
                 <div class="nav-wrapper">
                     <ul class="left">                      
-                      <li><h1 class="logo-wrapper"><a href="index.php" class="brand-logo darken-1"><img src="images/materialize-logo.png" alt="logo"></a> <span class="logo-text">Logo</span></h1></li>
+                      <li><h1 class="logo-wrapper"><a href="index.jsp class="brand-logo darken-1"><img src="images/materialize-logo.png" alt="logo"></a> <span class="logo-text">Logo</span></h1></li>
                     </ul>
                     <ul class="right hide-on-med-and-down">                        
-                        <li><a href="#" class="waves-effect waves-block waves-light"><i class="mdi-editor-attach-money"><?php echo $balance;?></i></a>
+                        <li><a href="#" class="waves-effect waves-block waves-light"><i class="mdi-editor-attach-money">$10000</i></a>
                         </li>
                     </ul>					
                 </div>
@@ -76,33 +76,33 @@
                 </div>
 				<div class="col col s8 m8 l8">
                     <ul id="profile-dropdown" class="dropdown-content">
-                        <li><a href="routers/logout.php"><i class="mdi-hardware-keyboard-tab"></i> Logout</a>
+                        <li><a href="#"><i class="mdi-hardware-keyboard-tab"></i> Logout</a>
                         </li>
                     </ul>
                 </div>
                 <div class="col col s8 m8 l8">
-                    <a class="btn-flat dropdown-button waves-effect waves-light white-text profile-btn" href="#" data-activates="profile-dropdown"><?php echo $name;?> <i class="mdi-navigation-arrow-drop-down right"></i></a>
-                    <p class="user-roal"><?php echo $role;?></p>
+                    <a class="btn-flat dropdown-button waves-effect waves-light white-text profile-btn" href="#" data-activates="profile-dropdown">Customer <i class="mdi-navigation-arrow-drop-down right"></i></a>
+                    <p class="user-roal">Customer</p>
                 </div>
             </div>
             </li>
-            <li class="bold"><a href="index.php" class="waves-effect waves-cyan"><i class="mdi-editor-border-color"></i> Order Food</a>
+            <li class="bold"><a href="index.jsp" class="waves-effect waves-cyan"><i class="mdi-editor-border-color"></i> Order Food</a>
             </li>
                 <li class="no-padding">
                     <ul class="collapsible collapsible-accordion">
                         <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="mdi-editor-insert-invitation"></i> Orders</a>
                             <div class="collapsible-body">
                                 <ul>
-								<li><a href="orders.php">All Orders</a>
+								<li><a href="orders.jsp">All Orders</a>
                                 </li>
-								<li><a href="orders.php">Status</a>
+								<li><a href="orders.jsp">Status</a>
                                     </li>
                                 </ul>
                             </div>
                         </li>
                     </ul>
                 </li>			
-            <li class="bold"><a href="details.php" class="waves-effect waves-cyan"><i class="mdi-social-person"></i> Edit Details</a>
+            <li class="bold"><a href="details.jsp" class="waves-effect waves-cyan"><i class="mdi-social-person"></i> Edit Details</a>
             </li>				
         </ul>
         <a href="#" data-activates="slide-out" class="sidebar-collapse btn-floating btn-medium waves-effect waves-light hide-on-large-only cyan"><i class="mdi-navigation-menu"></i></a>
@@ -183,9 +183,9 @@
 			</div>
 		</div>
 	</div>
-<form action="routers/order-router.php" method="post">
+<form action="#" method="post">
 <input type="hidden" name="name" value="val">
-<input type="hidden" name="payment_type" value="<?php echo $_POST['payment_type'];?>">
+<input type="hidden" name="payment_type" value="paypal">
 <input type="hidden" name="address" value="asdasdasasdasdads">
 <input type="hidden" name="description" value="asdsadasda">
 <input type="hidden" name="balance" value="balance">'
@@ -223,7 +223,7 @@
   <footer class="page-footer">
     <div class="footer-copyright">
       <div class="container">
-        <span>Copyright © 2017 <a class="grey-text text-lighten-4" href="#" target="_blank">Students</a> All rights reserved.</span>
+        <span>Copyright Â© 2017 <a class="grey-text text-lighten-4" href="#" target="_blank">Students</a> All rights reserved.</span>
         <span class="right"> Design and Developed by <a class="grey-text text-lighten-4" href="#">Students</a></span>
         </div>
     </div>
