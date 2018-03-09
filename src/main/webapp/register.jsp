@@ -84,7 +84,7 @@
 
   <div id="login-page" class="row">
     <div class="col s12 z-depth-4 card-panel">
-      <form class="formValidate" id="formValidate" method="post" action="routers/register-router.php" novalidate="novalidate" class="col s12">
+      <form class="formValidate" id="formValidate" method="post" action="#" novalidate="novalidate" class="col s12">
         <div class="row">
           <div class="input-field col s12 center">
             <h4>Register</h4>
@@ -128,7 +128,7 @@
 			<a href="javascript:void(0);" onclick="document.getElementById('formValidate').submit();" class="btn waves-effect waves-light col s12">Login</a>
           </div>
           <div class="input-field col s12">
-            <p class="margin center medium-small sign-up">Already have an account? <a href="login.php">Login</a></p>
+            <p class="margin center medium-small sign-up">Already have an account? <a href="login.jsp">Login</a></p>
           </div>
         </div>
       </form>
